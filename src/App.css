@@ -3,13 +3,15 @@
 }
 
 .Btn {
-  width: 30px;
+
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: 10px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  background-color: white;
+  padding: 20px;
+  background-color: rgb(243, 148, 6);
+  margin-top: 20px;
 
 
 
@@ -17,7 +19,7 @@
 }
 
 .container {
-  width: 200px;
+  width: 80%;
   height: 130px;
   position: absolute;
   top: 50%;
@@ -26,21 +28,31 @@
   border: 1px solid black;
   box-shadow: 8px 12px 12px grey;
   border-radius: 8px;
-  background-color: rgb(243, 148, 6);
+  
 
 
 }
 
-.row {
-  width: fit-content;
-  margin: auto;
-  padding: 10px;
 
-
-
-
+.circleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  height: 100%;
+  
 }
 
+.cirle{
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
 button {
   border-radius: 10px;
   cursor: pointer;
